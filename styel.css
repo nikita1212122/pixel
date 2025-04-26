@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+.cover {
+    width: 100vn;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-image: url(https://securenews.ru/wp-content/uploads/2017/04/pixel-background-1-900x444.jpg);
+}
+
+
+
+h1 {
+    font-family: "DotGothic16";
+    font-size: 60px;
+     padding-top: 120px;
+}
+ 
+a {
+    text-align: left;
+    color: black;
+}
+
+
+.field {
+    display: grid;
+    width: 95vw;
+    height: 45vw;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    gap: 1px;
+
+}
+
+.field-container{
+    display: none;
+    background-color:grey;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.cell {
+    background-color:white ;
+}
+
+
+.color_cell{
+    width: 3vw;
+    height: 2.5vw;
+    border: 1px black solid;
+}
+
+
+
+.red {
+    background-color: red;
+}
+
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.black{
+  background-color: black;  
+}
+
+
+.l {
+  background-color: white;
+  width: 3vw;
+    height: 2.5vw;
+    border: 1px black solid;
+}
+
+
+.selected {
+    border: 2px solid white;
+}
+
